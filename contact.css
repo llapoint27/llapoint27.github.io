@@ -1,0 +1,122 @@
+/* Background pattern from Toptal Subtle Patterns */
+/* CSS for Contact Page */
+
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(file:///Users/laurenlapoint/Desktop/hackarea/basic-portfolio/assets/images/whirlpool.png);
+}
+
+header {
+    background-color: white;
+    padding: 1%;
+    border-bottom: 1px solid #cccccc;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    padding: 2%;
+    width: 23%;
+    margin-left: 225px;
+    margin-bottom: -12px;
+    box-shadow: 1px 1px 3px #4C4843;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav {
+    float: right;
+    margin-right: 160px;
+    margin-top: -40px;
+    text-decoration: none;
+    color: #777777;
+}
+.about, .portfolio, .contact {
+    text-decoration: none;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+    color: pink;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 29px;
+    margin-left: -70%;
+    margin-top: -70%;
+}
+.form-box {
+    width: 300px;
+    height: 235px;
+    margin: 4% 20% 0 19%;
+    background-color: white;
+    padding: 20%;
+
+}
+
+.form-control {
+    width: 700px;
+    margin: 2%;
+    margin-left: -70%;
+    padding: 2%;
+    background: transparent;
+    border: 1 px solid #777777;
+    font-size: 16px;
+}
+
+input {
+    height: 40px;
+}
+
+.EnterName {
+    margin-left: -70%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:  #777777;
+}
+
+.EnterEmail {
+    margin-left: -70%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:  #777777;
+}
+
+form .submit {
+    background-color: #4aaaa5;
+    border-color: transparent;
+    color: white;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.submit:hover {
+    background-color: #bbbbbb;
+    cursor: pointer;
+}
+
+#line {
+    width: 720px;
+    margin-left: -70%;
+    margin-bottom: 20%;
+    color: #777777;
+}
+
+
+.footer, .push {
+    color: white;
+    background-color: #666666;
+    margin-top: 20%;
+    text-align: center;
+    font-size: 12px;
+    padding: 2%;
+    border-top: 7px solid #4aaaa5;
+}

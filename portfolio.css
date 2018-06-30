@@ -1,0 +1,174 @@
+/* Background pattern from Toptal Subtle Patterns */
+/* CSS for Portfolio Page */
+
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(file:///Users/laurenlapoint/Desktop/hackarea/basic-portfolio/assets/images/whirlpool.png);
+}
+
+header {
+    background-color: white;
+    padding: 1%;
+    border-bottom: 1px solid #cccccc;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    padding: 2%;
+    width: 23%;
+    margin-left: 225px;
+    margin-bottom: -12px;
+    box-shadow: 1px 1px 3px #4C4843;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.nav {
+    float: right;
+    margin-right: 160px;
+    margin-top: -40px;
+    text-decoration: none;
+    color: #777777;
+}
+.about, .portfolio, .contact {
+    text-decoration: none;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+    color: pink;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 29px;
+    margin-left: -70%;
+    margin-top: -65%;
+
+}
+.maincontent {
+    width: 300px;
+    height: 300px;
+    margin: 2%;
+    margin-left: 20%;
+    background-color: white;
+    padding: 20%;
+}
+
+#line {
+    width: 706px;
+    margin-left: -70%;
+    color: #777777;
+
+}
+
+.pic1 {width: 200px;
+    height: 200px;
+    margin: 2%;
+    padding: 3%;
+    margin-left: -167px;
+    float: left;
+    position: relative;
+    box-shadow: 1px 1px 3px #4C4843;
+
+}
+
+#title1 {
+    background-color: #4aaaa5;
+    width: 176px;
+    padding: 1%;
+    color: white;
+    position: absolute;
+    top: 400px;
+    left: 325px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pic2 {
+    width: 200px;
+    height: 200px;
+    margin: 3%;
+    padding: 3%;
+    float: right;
+    position: relative;
+    box-shadow: 1px 1px 3px #4C4843;
+
+}
+
+#title2 {
+    background-color: #4aaaa5;
+    width: 176px;
+    padding: 1%;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 401px;
+    left: 565px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pic3 {
+    width: 200px;
+    height: 200px;
+    margin: -3%;
+    margin-right: 3%;
+    padding: 3%;
+    float: right;
+    position: relative;
+    z-index: 0;
+    box-shadow: 1px 1px 3px #4C4843;
+
+}
+
+#title3 {
+    background-color: #4aaaa5;
+    width: 176px;
+    padding: 1%;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 626px;
+    left: 324px;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 1;
+}
+
+.pic4 {
+    width: 200px;
+    height: 200px;
+    margin-left: -53%;
+    float: left;
+    position: relative;
+    z-index: 0;
+    box-shadow: 1px 1px 3px #4C4843;
+}
+
+#title4 {
+    background-color: #4aaaa5;
+    width: 176px;
+    padding: 1%;
+    color: white;
+    text-align: center;
+    margin-left: 82px;
+    margin-top: 370px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    z-index: 1;
+}
+Footer {
+    color: white;
+    background-color: #666666;
+    margin-top: 20%;
+    text-align: center;
+    font-size: 12px;
+    padding: 2%;
+    border-top: 7px solid #4aaaa5;
+
+}

@@ -1,0 +1,95 @@
+/* Background pattern from Toptal Subtle Patterns */
+
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(file:///Users/laurenlapoint/Desktop/hackarea/basic-portfolio/assets/images/whirlpool.png);
+
+}
+
+header {
+    background-color: white;
+    padding: 1%;
+    border-bottom: 1px solid #cccccc;
+}
+
+h1, h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    padding: 2%;
+    width: 23%;
+    margin-left: 75px;
+    margin-bottom: -12px;
+    box-shadow: 1px 1px 3px #4C4843;
+
+}
+.nav {
+    float: right;
+    margin-right: 240px;
+    margin-top: -40px;
+    text-decoration: none;
+    color: #777777;
+}
+.about, .portfolio, .contact {
+    text-decoration: none;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+    color: pink;
+}
+
+
+.maincontent {
+    width: 960px;
+    height: 475px;
+    margin: 3%;
+    margin-left: 7%;
+    margin-bottom: 10%;
+    background-color: white;
+    color: #777777;
+    padding: 1.5%;
+    border: #dddddd;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+}
+
+#bio-image {
+    float: left;
+    margin-right: 3%;
+    margin-left: 2%;
+
+}
+
+
+#aboutme {
+    color: #4aaaa5;
+    font-size: 30px;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+#line {
+    color: #777777;
+}
+
+
+Footer {
+    color: white;
+    background-color: #666666;
+    margin-top: 10%;
+    text-align: center;
+    font-size: 12px;
+    padding: 2%;
+    border-top: 7px solid #4aaaa5;
+
+}
